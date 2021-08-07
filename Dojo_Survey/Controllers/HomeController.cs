@@ -12,9 +12,14 @@ namespace Dojo_Survey.Controllers
         }
 
         [HttpPost("Results")]
-        public IActionResult Results()
+        public IActionResult Results(string Name, string Location, string Language, string Comment)
         {
-            return View("Results");
+            ViewBag.Name = Name;
+            ViewBag.Location = Location;
+            ViewBag.Language = Language;
+            ViewBag.Comment = Comment;
+
+            return View("Results", ViewBag);
         }
     }
 }
