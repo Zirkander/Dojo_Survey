@@ -36,6 +36,8 @@ namespace Dojo_Survey.Controllers
             if (ModelState.IsValid)
             {
                 return View("FormResults", newUser);
+                // HttpContext.Session.SetString("Username", newUser.Username);
+                // return RedirectToAction("FormResults");
             }
             else
             {

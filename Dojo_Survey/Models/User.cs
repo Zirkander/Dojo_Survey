@@ -19,9 +19,11 @@ namespace Dojo_Survey.Models
         public string Email { get; set; }
         [Required]
         [MinLength(8)]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
         [Required]
         [Compare("Password", ErrorMessage = "Passwords must match!")]
+        [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
     }
 }
