@@ -33,3 +33,5 @@ E:\Coding Dojo\C#\Asp\Dojo_Survey\Dojo_Survey\obj\Debug\net5.0\Razor\Views\Home\
 E:\Coding Dojo\C#\Asp\Dojo_Survey\Dojo_Survey\obj\Debug\net5.0\Dojo_Survey.RazorTargetAssemblyInfo.cs
 E:\Coding Dojo\C#\Asp\Dojo_Survey\Dojo_Survey\obj\Debug\net5.0\Dojo_Survey.Views.pdb
 E:\Coding Dojo\C#\Asp\Dojo_Survey\Dojo_Survey\obj\Debug\net5.0\Dojo_Survey.csproj.CopyComplete
+E:\Coding Dojo\C#\Asp\Dojo_Survey\Dojo_Survey\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Coding Dojo\C#\Asp\Dojo_Survey\Dojo_Survey\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs

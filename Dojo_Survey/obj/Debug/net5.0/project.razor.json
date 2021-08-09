@@ -15617,6 +15617,27 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "Dojo_Survey",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\Dojo_Survey\\Dojo_Survey\\Views\\Home\\Results.cshtml",
+      "TargetPath": "Views\\Home\\Results.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\Dojo_Survey\\Dojo_Survey\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\Dojo_Survey\\Dojo_Survey\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\Dojo_Survey\\Dojo_Survey\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
