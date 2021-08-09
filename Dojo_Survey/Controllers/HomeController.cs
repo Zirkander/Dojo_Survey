@@ -11,10 +11,36 @@ namespace Dojo_Survey.Controllers
             return View("Index");
         }
 
-        [HttpPost("Results")]
+        [HttpPost("results")]
         public IActionResult Results(Person person)
         {
-            return View("Results", person);
+            if (ModelState.IsValid)
+            {
+                return View("Results", person);
+            }
+            else
+            {
+                return View("Index");
+            }
+        }
+
+        [HttpGet("NewUser")]
+        public IActionResult NewUser()
+        {
+            return View("NewUser");
+        }
+
+        [HttpPost("FormResults")]
+        public IActionResult FormResults(User newUser)
+        {
+            if (ModelState.IsValid)
+            {
+                return View("FormResults", newUser);
+            }
+            else
+            {
+                return View("NewUser");
+            }
         }
     }
 }

@@ -15634,8 +15634,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\Dojo_Survey\\Dojo_Survey\\Views\\Home\\NewUser.cshtml",
+      "TargetPath": "Views\\Home\\NewUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Coding Dojo\\C#\\Asp\\Dojo_Survey\\Dojo_Survey\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Coding Dojo\\C#\\Asp\\Dojo_Survey\\Dojo_Survey\\Views\\Home\\FormResults.cshtml",
+      "TargetPath": "Views\\Home\\FormResults.cshtml",
       "FileKind": "mvc"
     }
   ],

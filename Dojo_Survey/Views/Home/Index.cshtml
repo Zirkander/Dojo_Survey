@@ -1,3 +1,4 @@
+@model Person
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,27 +12,38 @@
 <body style="border: 1px solid black; text-align: center; width: 500px;">
     <h1>Please Enter Your Info</h1>
     <div style="margin-left: 150px;">
-        <form action="Results" method="post" style="display: flex; flex-direction: column; text-align: left;">
-            <p>Name: <input type="text" name="Name"></p>
-            <p>Location: <select name="Location"></p>
-            <option value="Bellvue">Bellvue</option>
-            <option value="San Jose">San Jose</option>
-            <option value="Arlington">Arlington</option>
-            <option value="Berkely">Berkely</option>
-            <option value="Dallas">Dallas</option>
-            <option value="Chicago">Chicago</option>
+        <form asp-action="Results" asp-controller="Home" method="post"
+            style="display: flex; flex-direction: column; text-align: left;">
+            <span asp-validation-for="Name"></span>
+            <label asp-for="Name"></label>
+            <input type="text" asp-for="Name">
+            <label asp-for="Location"></label>
+            <select asp-for="Location">
+                <option value="Bellvue">Bellvue</option>
+                <option value="San Jose">San Jose</option>
+                <option value="Arlington">Arlington</option>
+                <option value="Berkely">Berkely</option>
+                <option value="Dallas">Dallas</option>
+                <option value="Chicago">Chicago</option>
             </select>
-            <p>Language: <select name="Language" id=""></p>
-            <option value="C#">C#</option>
-            <option value="Python">Python</option>
-            <option value="React">React</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="HTML">HTML</option>
+            <label asp-for="Location"></label>
+            <select asp-for="Language" id="">
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="React">React</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML">HTML</option>
             </select>
-            <textarea name="Comment" id="" cols="30" rows="5" style="margin-top: 30px;"></textarea>
+            <span asp-validation-for="Email"></span>
+            <label asp-for="Email"></label>
+            <input type="text" asp-for="Email">
+            <label asp-for="Comment"></label>
+            <span asp-validation-for="Comment"></span>
+            <textarea asp-for="Comment" id="" cols="30" rows="5" style="margin-top: 30px;"></textarea>
             <br>
             <button type="submit" style="margin-left: 70px; margin-top: 30px;">Submit</button>
         </form>
+        <a href="/NewUser">Click here to create a new user!</a>
 
     </div>
 </body>
